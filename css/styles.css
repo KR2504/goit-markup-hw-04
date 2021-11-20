@@ -132,7 +132,7 @@ img {
   margin-left: auto;
 }
 .info .item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .info .info-contacts {
@@ -210,7 +210,7 @@ img {
 
 /* -----------------------SKILS MY TEAM---------------------- */
 .section-skills {
-  padding-top: 80px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .section-skills-list {
@@ -223,6 +223,17 @@ img {
 .section-skills-list .item {
   width: 270px;
 }
+
+.box-skills-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 120px;
+
+  background-color: var(--secondary-background-color);
+}
+
 .section-skills-title {
   margin-bottom: 10px;
 
