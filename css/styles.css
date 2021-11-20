@@ -99,6 +99,7 @@ img {
 }
 
 .main-nav {
+  height: 80px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -127,14 +128,19 @@ img {
 }
 .info {
   display: flex;
+  justify-content: center;
   margin-left: auto;
 }
 .info .item:not(:last-child) {
   margin-right: 50px;
 }
+
 .info .info-contacts {
   padding-top: 24px;
   padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   font-weight: 500;
   font-size: 14px;
@@ -147,10 +153,12 @@ img {
 .info-contacts:focus {
   color: var(--accent-color);
 }
+
 .info-contacts-icon {
-  width: 20px;
-  height: 20px;
+  fill: currentColor;
+  margin-right: 10px;
 }
+
 /* --------------------MAIN----------------------- */
 
 .section-hero {
