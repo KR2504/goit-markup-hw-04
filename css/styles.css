@@ -435,6 +435,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
   color: var(--accent-color);
 }
 
@@ -443,6 +444,7 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+
   color: var(--primary-white-color);
 }
 
@@ -464,6 +466,63 @@ img {
   margin-bottom: 9px;
 }
 
+.footer-container {
+  display: flex;
+}
+
+.footer-container-link {
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+.footer-section-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.footer-section-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section-item {
+  width: 44px;
+  height: 44px;
+}
+
+.footer-section-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-section-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--primary-white-color);
+}
+
+.footer-section-icon {
+  fill: currentColor;
+}
+
+.footer-section-link:hover,
+.footer-section-link:focus {
+  background-color: var(--accent-color);
+}
 /* ------------------PORTFOLIO-------------------- */
 
 .portfolio {
