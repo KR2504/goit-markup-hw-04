@@ -122,30 +122,32 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
+
 .site-nav-link:hover,
 .site-nav-link:focus {
   color: var(--accent-color);
 }
+
 .info {
   display: flex;
-  justify-content: center;
   margin-left: auto;
 }
+
 .info .item:not(:last-child) {
   margin-right: 30px;
 }
 
 .info .info-contacts {
-  padding-top: 24px;
-  padding-bottom: 25px;
   display: flex;
   align-items: center;
-  justify-content: center;
 
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: var(--primary-text-color);
 }
 
@@ -196,14 +198,17 @@ img {
   padding: 10px 32px;
   border-radius: 4px;
   border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  font-family: inherit;
-  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
   min-width: 200px;
+
+  font-family: inherit;
+  cursor: pointer;
+
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -228,6 +233,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
   margin-bottom: 30px;
   height: 120px;
 
@@ -236,10 +242,10 @@ img {
 
 .section-skills-title {
   margin-bottom: 10px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+
   color: var(--title-color);
 }
 .section-skills-text {
@@ -252,12 +258,13 @@ img {
   padding-bottom: 94px;
 }
 .section-work-title {
-  margin-bottom: 50px;
+  text-align: center;
 
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
+
   color: var(--title-color);
 }
 
@@ -298,12 +305,13 @@ img {
 }
 
 .section-team-title {
-  margin-bottom: 50px;
+  text-align: center;
 
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
+
   color: var(--title-color);
 }
 
@@ -314,22 +322,21 @@ img {
 
 .name {
   margin-bottom: 10px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+
   color: var(--title-color);
 }
 
 .desc {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 16px;
 }
 
 .section-team-icon {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -383,8 +390,6 @@ img {
 
 .section-clients-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .section-clients-item {
@@ -583,6 +588,8 @@ img {
 }
 .portfolio-works-link {
   display: block;
+
+  color: var(--primary-text-color);
 }
 .portfolio-works-link:hover,
 .portfolio-works-link:focus {
@@ -608,5 +615,4 @@ img {
 .portfolio-works-text {
   font-size: 16px;
   line-height: 1.9;
-  color: var(--primary-text-color);
 }
